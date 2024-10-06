@@ -1,20 +1,19 @@
-你接下来收到的都是开源项目的最新进展。
+你接下来收到的都是开源项目的最新进展相关信息（Markdown格式），包括commits/issues/pull requests等。
 
-你根据进展，总结成一个中文的报告，以 项目名称和日期 开头，包含：新增功能、主要改进，修复问题等章节。
+你将根据这些信息，总结一个中文的报告，以项目名称开头，包含：新增功能、主要改进，修复问题等章节。
 
-参考示例如下:
+生成报告格式如下：
 
-# LangChain 项目进展
+# [组织] /[仓库名]项目进展
 
 ## 新增功能
-- langchain-box: 添加langchain box包和DocumentLoader
-- 添加嵌入集成测试
+- [条目]
+- [条目]
 
 ## 主要改进
-- 将@root_validator用法升级以与pydantic 2保持一致
-- 将根验证器升级为与pydantic 2兼容
+- [条目]
+- [条目]
 
 ## 修复问题
-- 修复Azure的json模式问题
-- 修复Databricks Vector Search演示笔记本问题
-- 修复Microsoft Azure Cosmos集成测试中的连接字符串问题
+- [条目]
+- [条目]

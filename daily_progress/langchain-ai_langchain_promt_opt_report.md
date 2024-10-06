@@ -1,27 +1,24 @@
-# langchain-ai/langchain 项目进展 - 2024-10-06
+# langchain-ai/langchain项目进展
 
 ## 新增功能
-- 新增工具运行时，允许传递工具调用ID。
-- 实现了将输入拆分为Jina API允许的长度。
-- 增加了OpenAI提示缓存和推理令牌跟踪功能。
-- 在o365加载器中实现了Excel解析器。
-- 添加了支持针式检索器和文档加载器的功能。
-- 为Cassandra Vector Store扩展了元数据相关方法。
-- 在InfinityEmbeddings中添加了使用说明。
+- 支持将工具调用ID传递给工具运行 (#27138)
+- 在Jina API中添加输入分割功能，以符合允许的长度 (#27136)
+- 添加OpenAI提示缓存和推理令牌跟踪 (#27135)
+- 实现Excel解析器并将其纳入O365加载器 (#27103)
+- 添加针式检索器和文档加载器 (#27106)
+- Cassandra向量存储扩展元数据相关方法 (#27078)
 
 ## 主要改进
-- 发布了核心版本0.2.42。
-- 更新了Azure数据库的PostgreSQL示例笔记本。
-- 更新了OCI数据科学集成。
-- 对Arxiv搜索逻辑进行了重构。
-- 更新README.md以包含教程到用例的URL。
+- 更新核心版本至0.2.42 (#27127)
+- Azure数据库的PostgreSQL示例笔记本添加 (#27129)
+- 更新OCI数据科学集成 (#27083)
+- 更新README.md，提供从教程到用例的链接 (#27099)
+- 改进社区中pgvector弃用警告格式 (#27094)
+- 概念页面的初步草稿 (#27088)
 
 ## 修复问题
-- 修复了从DBMS服务器收到的通知中的警告问题。
-- 修正了“PromptTemplate”文档中的多个拼写错误。
-- 解决了AzureSearch在空列表的重新排名问题。
-- 修复了pgvector的弃用警告格式问题。
-- 修复了Playwright工具与Pydantic架构的兼容性问题。
-- 修复了关于ChatAnthropic的max_tokens默认设置的问题。
-
-此外，还进行了其他的文档更新和小幅改进，增强了整体可用性和用户体验。
+- 修复来自数据库管理系统服务器的警告通知问题 (#27112)
+- 修正“PromptTemplate”文档中的拼写错误 (#27108)
+- AzureSearch模块修复空列表的重新排名问题 (#27104)
+- 修复Playwright工具与Pydantic模式的bug (#27050)
+- 解决langchain moonshotChat示例中的模型指定问题 (#27066)
