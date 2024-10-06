@@ -1,0 +1,65 @@
+# langchain-ai/langchain Daily Progress - 2024-10-06
+
+## Issues
+- DOC: with_structured_output => example of setting enum #27139
+- feat: pass tool call id to tool runs #27138
+- community: Added splitting the Input to the allowed length of the Jina API. #27136
+- Community : Add OpenAI prompt caching and reasoning tokens tracking #27135
+- community:langchain_community:tools:eleven_labs: Fix the tool #27130
+- docs: Adding Azure Database for PostgreSQL Example Notebook #27129
+- core: release 0.2.42 #27127
+- Docs: Add Comet Opik Update #27123
+- HF_HUB_OFFLINE environment variable breaks HuggingFaceEndpoints #27113
+- fix "WARNING: Received notification from DBMS server: {severity: WARN… #27112
+- fix: Correct typo in 'PromptTemplate' documentation #27108
+- DOC: Typo in “PromptTemplate” documentation (“evens” should be “events”) #27107
+- community: add needle retriever & document loader #27106
+- [Anthropic] Shallow Copy #27105
+- community: AzureSearch: fix reranking for empty lists #27104
+- [community] [feature]: Implementation of excel parser and including it in o365 loader #27103
+- community: FAISS vectorstore - consistent Document id field #27101
+- Update README.md for Tutorial to Usecase url #27099
+- [Azure AI Search] RuntimeWarning: coroutine 'SearchClient.close' was never awaited #27097
+- docs: fix community pgvector deprecation warning formatting #27094
+- First draft of concept pages #27088
+- community: refactor Arxiv search logic #27084
+- community: Update OCI data science integration #27083
+- community: Add instructions in InfinityEmbeddings #27081
+- community: Cassandra Vector Store: extend metadata-related methods #27078
+- docs: test conceptual guide re-organization #27075
+- community[patch]: Release 0.3.2 #27074
+- community: add bm25 retriever model save and load method #27071
+- community : added support for pickle networkx graph import #27068
+- max_tokens is set to 1024 by default in ChatAnthropic, instead of being omitted #27067
+
+## Pull Requests
+- feat: pass tool call id to tool runs #27138
+- community: Added splitting the Input to the allowed length of the Jina API. #27136
+- Community : Add OpenAI prompt caching and reasoning tokens tracking #27135
+- community:langchain_community:tools:eleven_labs: Fix the tool #27130
+- docs: Adding Azure Database for PostgreSQL Example Notebook #27129
+- core: release 0.2.42 #27127
+- Docs: Add Comet Opik Update #27123
+- fix "WARNING: Received notification from DBMS server: {severity: WARN… #27112
+- fix: Correct typo in 'PromptTemplate' documentation #27108
+- community: add needle retriever & document loader #27106
+- [Anthropic] Shallow Copy #27105
+- community: AzureSearch: fix reranking for empty lists #27104
+- [community] [feature]: Implementation of excel parser and including it in o365 loader #27103
+- community: FAISS vectorstore - consistent Document id field #27101
+- Update README.md for Tutorial to Usecase url #27099
+- docs: fix community pgvector deprecation warning formatting #27094
+- First draft of concept pages #27088
+- community: refactor Arxiv search logic #27084
+- community: Update OCI data science integration #27083
+- community: Add instructions in InfinityEmbeddings #27081
+- community: Cassandra Vector Store: extend metadata-related methods #27078
+- docs: test conceptual guide re-organization #27075
+- community[patch]: Release 0.3.2 #27074
+- community: add bm25 retriever model save and load method #27071
+- community : added support for pickle networkx graph import #27068
+- fix:Specified the model that solves langchain moonshotChat exmaple di… #27066
+- community: sambastudio chat model #27056
+- docs: `integrations/providers/microsoft` update #27055
+- docs: `integrations` updates 18 #27054
+- Fix Playwright Tools bug with Pydantic schemas #27050
